@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="geng_lab2Quiz.css" />
+    <script src="geng_lab2.js"></script>
+    <title>Lab 2 Quiz Page (Geng Yuan)</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="header">
+            <h1>Quiz about Sweden</h1>
+        </div>
+
+        <form id="form1">
+
+            <h2>Which city is the capital of Sweden?(100p)</h2>
+            <label for="var_N"><input type="radio" name="capital" value="0" id="var_N" />New York</label>
+            <label for="var_G"><input type="radio" name="capital" value="0" id="var_G" />Gothenberg</label>
+            <label for="var_H"><input type="radio" name="capital" value="0" id="var_H" />Helsinski</label>
+            <label for="var_stockholm"><input type="radio" name="capital" value="100" id="var_stockholm"/>Stockholm</label>
+
+            <h2>Which colors you can find in Swedish national flag?(50p +50p)</h2>
+            <input class="r" type="checkbox" name="flag" value="0" id="sub_R">Red
+            <input class="y" type="checkbox" name="flag" value="50" id="sub_Y">Yellow
+            <input class="w" type="checkbox" name="flag" value="0" id="sub_W">White
+            <input class="b" type="checkbox" name="flag" value="50" id="sub_B">Blue
+
+            <h2>What is your favorite Swedish food?(free write any word)</h2>
+
+            <textarea id="txtInputData" rows="10" cols="10" placeholder="no empty!"></textarea>
+
+            <br/><br/>
+
+            <button type="submit" value="Submit" onclick="displayText(); showAnswer()">Submit</button>
+
+            <p>Your grade is: <span id="grade"></span></p>
+
+            <p id="displayAnswer">The correct answer: </p>
+            <p id="showText"></p>
+        </form>
+        <button class="center" onclick="window.location.href='geng_lab2.html';">Back to Registration</button>
+        <button onclick="location.reload();">Try it again!</button>
+
+
+
+
+
+    </div>
+
+</body>
+
+
+</html>

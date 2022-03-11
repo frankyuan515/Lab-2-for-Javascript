@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: rgb(227, 233, 222);
+    margin-left: 50px;
+    text-shadow: 1px 1px 1px white;
+}
+
+.parag {
+    color: rgb(82, 88, 77);
+    margin-left: 0px;
+    padding: 5px 0;
+    font-size: absolute;
+    font-weight: normal;
+}
+
+div {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    background-color: #fffffff1;
+    font-family: "Courier New", Courier, monospace;
+}
+
+form {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 2rem 4rem;
+}
+
+form h1 {
+    padding: 5px 0;
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: center;
+    color: #111;
+}
+
+.field {
+    margin-bottom: 0.75rem;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: top;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #c2c2c2;
+}
+
+button {
+    border-radius: 25px;
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.homepage img {
+    width: 50%;
+    height: auto;
+}
+
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+}
